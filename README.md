@@ -44,22 +44,33 @@ It provides smooth transitions, auto-sliding images, manual navigation buttons, 
 
 1. **Download or clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/Nitesh-Pandit/Image-Slider
 Open the folder structure
 
 arduino
 Copy code
 image-slider/
+
 ├── landing.html
+
 ├── slider.html
+
 ├── style.css
+
 ├── script.js
+
 └── images/
+
      ├── img1.jpg
+     
      ├── img2.jpg
+     
      ├── img3.jpg
+     
      ├── img4.jpg
+     
      └── img5.jpg
+     
 Run the Project
 
 Open landing.html in your browser.
