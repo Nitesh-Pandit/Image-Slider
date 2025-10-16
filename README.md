@@ -1,19 +1,14 @@
-# 🌟 Dynamic Image Slider Project
+#  Dynamic Image Slider Project
 
-![Banner](https://img.shields.io/badge/HTML-CSS-JavaScript-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge)
 
----
-
-## 📘 Overview
+##  Overview
 
 The **Dynamic Image Slider Project** is a simple yet visually appealing **image slider** built using **HTML, CSS, and JavaScript**.  
 It provides smooth transitions, auto-sliding images, manual navigation buttons, and a modern landing page that links to the main slider.
 
 ---
 
-## 🧠 Features
+##  Features
 
 ### 🔹 Landing Page (`landing.html`)
 - Elegant landing page with gradient background and preview image  
@@ -30,7 +25,7 @@ It provides smooth transitions, auto-sliding images, manual navigation buttons, 
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |-------------|----------|
@@ -40,7 +35,7 @@ It provides smooth transitions, auto-sliding images, manual navigation buttons, 
 
 ---
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 1. **Download or clone the repository**
    ```bash
@@ -78,8 +73,11 @@ Open landing.html in your browser.
 Click on “Try the Slider” to explore the image slider.
 
 📱 Responsive Design
+
 ✅ Desktop Friendly
+
 ✅ Tablet Friendly
+
 ✅ Mobile Friendly
 
 The layout and slider adapt perfectly to different screen sizes using CSS Flexbox and media queries.
@@ -100,20 +98,24 @@ Handles image switching, auto-sliding, and button clicks.
 
 Includes timer reset logic when user interacts manually.
 
-💡 Additional Features
-🕒 Auto-slideshow feature
+ Additional Features
+ Auto-slideshow feature
 
-🔁 Looping image transitions
+ Looping image transitions
 
-🎨 Animated landing page design
+ Animated landing page design
 
-💬 Well-commented, easy-to-read code
+ Well-commented, easy-to-read code
 
-🧑‍💻 Author
-👩‍💻 Nitesh pandit
-📍 Project: Dynamic Image Slider
-💻 Technologies: HTML, CSS, JavaScript
+ Author
 
-🏁 Conclusion
+ Nitesh pandit
+
+ Project: Dynamic Image Slider
+
+ Technologies: HTML, CSS, JavaScript
+
+ Conclusion
+
 This project showcases how HTML, CSS, and JavaScript can be combined to create a dynamic, user-friendly, and responsive web interface.
 It fulfills all project requirements and includes several enhancements for a better user experience.
