@@ -40,10 +40,8 @@ It provides smooth transitions, auto-sliding images, manual navigation buttons, 
 1. **Download or clone the repository**
    ```bash
    git clone https://github.com/Nitesh-Pandit/Image-Slider
-Open the folder structure
+## Open the folder structure
 
-arduino
-Copy code
 image-slider/
 
 ├── landing.html
