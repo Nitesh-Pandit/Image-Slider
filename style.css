@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+/* For body  */
+body {
+    background: linear-gradient(135deg, #1a1c20 0%, #283593 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* For slider better visiblity */
+
+.slider-container {
+    width: 800px;
+    max-width: 95%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* for slider making relative with proper length */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+/* for slide where all images is showing */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    object-fit: cover;
+}
+/* Making slide's image active first time */
+.slide.active {
+    opacity: 1;
+}
+
+/* giving proper css for next and previous button */
+.slider-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* Proper css for next and previous button */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+/* Appling hover effect */
+button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Back to Landing Button */
+.back-to-landing {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+    color: white;
+    padding: 10px 20px 10px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;/* animation in button */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+}
+/* Adding before effect  */
+.back-to-landing:before {
+    content: '←';
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+/* Adding hover effect in back to landing  */
+.back-to-landing:hover {
+    background: linear-gradient(135deg, #0097a7 0%, #00838f 100%);
+    box-shadow: 0 6px 20px rgba(0, 188, 212, 0.4);
+    transform: translateX(-3px);
+}
+/* Adding hover effect before */
+.back-to-landing:hover:before {
+    transform: translateX(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .slider-container {
+        width: 95%;
+    }
+    
+    .slider {
+        height: 300px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Image Slider</title>
+    <!-- Styling for landing page -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        /* For body */
+        body {
+            background: linear-gradient(135deg, #1a1c20 0%, #283593 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+/* Styling for container for proper length*/
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 1200px;
+        }
+
+        /* Styling for tittle for looking attractive*/
+        .title {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        /* Styling for descriptions for looking attractive */
+        .description {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+        /* styling for slider-perview for looking and proper user experience */
+        .slider-preview {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            margin: 2rem auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            backdrop-filter: blur(5px);
+        }
+        /* Styling for image placing proper height and weight */
+        .preview-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: fade 8s infinite;
+        }
+        /* Animation for image slider */
+        @keyframes fade {
+            0%, 100% { opacity: 0; }
+            20%, 80% { opacity: 1; }
+        }
+
+        /* Styling for button looking more attractive  */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            background: linear-gradient(45deg, #ff4081 0%, #e91e63 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            margin-top: 2rem;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+            text-transform: uppercase;
+        }
+/* styling the hover effect for better looking in button */
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(233, 30, 99, 0.4);
+            background: linear-gradient(45deg, #e91e63 0%, #d81b60 100%);
+        }
+/* Making responsive in different screens */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            .title {
+                font-size: 2rem;
+            }
+            .description {
+                font-size: 1rem;
+            }
+            .slider-preview {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading all the elements in this container -->
+    <div class="container">
+        <!-- setting title  -->
+        <h1 class="title">Dynamic Image Slider</h1>
+        <!-- Setting descriptions -->
+        <p class="description">
+            Experience a seamless and elegant way to showcase your images with our responsive image slider.
+            Featuring smooth transitions, automatic playback, and intuitive navigation controls.
+        </p>
+        <!-- Slider preview section -->
+        <div class="slider-preview">
+            <img src="images/img1.jpg" alt="Slider Preview" class="preview-image">
+        </div>
+        <!-- Call to action button to navigate to slider page -->
+        <a href="slider.html" class="cta-button">Try the Slider</a>
+    </div>
+</body>
+</html>
