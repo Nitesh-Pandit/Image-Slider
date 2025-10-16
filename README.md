@@ -66,7 +66,7 @@ image-slider/
      
      └── img5.jpg
      
-Run the Project
+## Run the Project
 
 Open landing.html in your browser.
 
@@ -82,7 +82,7 @@ Click on “Try the Slider” to explore the image slider.
 
 The layout and slider adapt perfectly to different screen sizes using CSS Flexbox and media queries.
 
-🧾 Code Description
+## 🧾 Code Description
 HTML
 Defines layout for landing and slider pages.
 
@@ -107,7 +107,7 @@ Includes timer reset logic when user interacts manually.
 
  Well-commented, easy-to-read code
 
- Author
+ ## Author
 
  Nitesh pandit
 
@@ -115,7 +115,7 @@ Includes timer reset logic when user interacts manually.
 
  Technologies: HTML, CSS, JavaScript
 
- Conclusion
+ ## Conclusion
 
 This project showcases how HTML, CSS, and JavaScript can be combined to create a dynamic, user-friendly, and responsive web interface.
 It fulfills all project requirements and includes several enhancements for a better user experience.
